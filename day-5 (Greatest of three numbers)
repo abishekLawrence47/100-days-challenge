@@ -1,0 +1,20 @@
+import java.util.*;
+public class pn{
+        public static void Main(String[] args){
+            Scanner sc = new Scanner(System.in);
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+            int z = sc.nextInt();
+            if(x > y && x > z){
+                System.out.print("x is greater");
+            }
+            else if(y>x && y>z){
+                System.out.print("y is greater");
+
+            }
+            else{
+                System.out.print("z is greater");
+            }
+
+        }
+}
